@@ -3,8 +3,8 @@
 require_once './vendor/autoload.php';
 error_reporting(E_ERROR | E_PARSE);
 
-$clientID = '650313156773-e03fk84geu4kaeorsfeg9e4cu7qjaii9.apps.googleusercontent.com';
-$clientSecret = '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';
+$clientID = 'your client id';
+$clientSecret = 'client secret';
 $redirectUri = 'http://localhost/GoogleLogin/login.php';
 
 $client = new Google_Client();
